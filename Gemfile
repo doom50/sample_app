@@ -35,3 +35,14 @@ group :test do
   gem "guard",                    "2.18.0"
   gem "guard-minitest",           "2.4.6"
 end
+
+group :development do
+  gem 'prettier_print'
+  gem 'syntax_tree'
+  gem 'syntax_tree-haml'
+  gem 'syntax_tree-rbs'
+end
+
+gem "rubocop"
+
+gem "ruby-lsp"
