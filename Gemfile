@@ -45,6 +45,10 @@ group :development do
   gem 'syntax_tree-rbs'
 end
 
+group :production do
+  gem 'pg', '1.3.5'
+end
+
 gem 'rubocop'
 
 gem 'ruby-lsp'
