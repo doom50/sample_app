@@ -21,10 +21,14 @@ group :development, :test do
 end
 
 group :development do
-  gem 'irb',                 '1.10.0'
+  gem 'irb', '1.10.0'
+  gem 'prettier_print'
   gem 'repl_type_completor', '0.1.2'
-  gem 'solargraph',          '0.50.0'
-  gem 'web-console',         '4.2.0'
+  gem 'solargraph', '0.50.0'
+  gem 'syntax_tree'
+  gem 'syntax_tree-haml'
+  gem 'syntax_tree-rbs'
+  gem 'web-console', '4.2.0'
 end
 
 group :test do
@@ -36,13 +40,6 @@ group :test do
   gem 'rails-controller-testing', '1.0.5'
   gem 'selenium-webdriver',       '4.8.3'
   gem 'webdrivers',               '5.2.0'
-end
-
-group :development do
-  gem 'prettier_print'
-  gem 'syntax_tree'
-  gem 'syntax_tree-haml'
-  gem 'syntax_tree-rbs'
 end
 
 group :production do
