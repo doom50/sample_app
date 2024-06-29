@@ -13,7 +13,7 @@
       <ul id="navbar-menu" class="nav navbar-nav navbar-right collapse navbar-collapse">
         <li><%= link_to "Home",   root_path %></li>
         <li><%= link_to "Help",   help_path %></li>
-        <% if loged_in? %>
+        <% if logged_in? %>
           <li><%= link_to "Users", '#' %></li>
           <li class="dropdown">
             <a href="#" id="account" class="dropdown-toggle">
